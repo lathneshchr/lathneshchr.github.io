@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lathnesh Cheruvattil.</title>
+    <script>
+    document.addEventListener("contextmenu", e => e.preventDefault(), false);
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'><link rel="stylesheet" href="./style.css">
+    
+    <style>
+      /* Apply general styles to all pages */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      /* Apply specific styles for the front page */
+      .front-page {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; /* Space between content */
+          padding: 20px; /* Add padding to the front page container */
+      }
+
+      /* Hide the image by default */
+      .front-page img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px; /* Adjust the border-radius for rounded edges */
+          transition: box-shadow 10.s ease; /* Smooth transition for box-shadow */
+      }
+
+      /* Enlarge the image on hover and add a subtle shadow */
+      .front-page img:hover {
+          transform: scale(1.2); /* Scale the image by 20% */
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+      }
+
+      /* Show the image only on the front page */
+      .front-page.show-image img {
+          display: block;
+          /* Adjust the width, height, and margin as needed */
+          width: 500px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="terminal-text" >Lathnesh  Cheruvattil</span><span class="blinking-cursor">_</span> </a>
+      
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <script>
+        window.addEventListener('scroll', function () {
+          var scrollPosition = window.scrollY;
+          var mainSection = document.getElementById('main');
+          mainSection.style.backgroundPosition = 'center ' + (-scrollPosition * 0.3) + 'px';
+        });
+      </script>
+      <script src="https://tryhackme.com/badge/313611"></script>
+      
+    </header>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2>Hello, I'm<br><span>Lathnesh .......</span></h2>
+        <div class="animated-text">
+          <h3>Certified Ethical Hacker.</h3>
+          <h3>Penetration Tester, VAPT </h3>
+          <h3>Deffensive Security</h3>
+        </div>
+        
+      </div>
+      <div class="down-arrow"></div>
+      <div class="scroll-button" onclick="scrollToSection('about')">
+        <div class="mouse-icon">
+          <div class="scroll-wheel"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="main" id="main">
+
+      <div class="title reveal">
+        <h2 class="section-title">Educations </h2>
+      </div>
+      <div class="container">
+        <div class="item">
+          <div class=item__border>
+            <img class="item__image" src="images/HandN.jpeg"/>
+              <img alt="" class="item__image hover-image" src="https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577" />
+          </div>
+          <p><div class="item__title">Hardware And Networking    -    Govt. Polytechnic kannur(CCEK)</div></p>
+        </div>
+        <div class="item">
+          <div class=item__border>
+            <img class="item__image" src="images/nsdc.jpeg"/>
+              <img alt="" class="item__image hover-image" src="https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577" />
+          </div>
+          <p><div class="item__title"> Hardware And Network Engineering    -    Govt. Polytechnic kannur(CCEK)</div></p> 
+        </div> 
+        <div class="item">
+          <div class=item__border>
+            <img class="item__image" src="images/adcd.jpg"/>
+              <img alt="" class="item__image hover-image" src="https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577" />
+          </div>
+          <p><div class="item__title"> Advanced Diploma In Cyber Defence    -  Redteam Hacker Academy</div></p>
+        </div>
+        <div class="item">
+          <div class=item__border>
+            <img class="item__image" src="images/ceh11.jpg"/>
+              <img alt="" class="item__image hover-image" src="https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577" />
+          </div>
+          <p><div class="item__title"> Certified Ethical Hacker v11   -  Ec Council</div></p>
+        </div>  
+        <div class="item">
+          <div class=item__border>
+            <img class="item__image" src="images/ethical-hacks.jpg"/>
+              <img alt="" class="item__image hover-image" src="https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577" />
+          </div>
+          <p><div class="item__title"> The Complete Ethical Hacking Course    -  Udemy</div></p>
+        </div>
+          
+        <div class="item">
+          <div class=item__border>
+            <img class="item__image" src="images/python-cert.jpg"/>
+              <img alt="" class="item__image hover-image" src="https://prod-ripcut-delivery.disney-plus.net/v1/rawFiles/disney/RAW_59F432D7A600A8F1CE36AE4D0B96570AC7C8277A0E8855BC06FABBAE090E6577" />
+          </div>
+          <p><div class="item__title"> Python Scripting Complete Course    -  Udemy</div></p>
+        </div>
+        
+      </div>
+      
+    </section>
+
+    <section><h2></h2> </h2></section>
+
+   
+
+    <section class="about" id="about">
+      
+      <div class="title reveal">
+        <h2 class="section-title">About Me .......</span><span class="blinking-cursor">&#8631;</span> </h2>
+      </div>
+     
+      <div class="content">
+        <div class="column col-left reveal">
+          
+          <div class="img-card">
+            <img src="images/img1.jpg" alt="">
+          </div>
+
+
+
+
+        </div>
+        <div class="column col-right reveal">
+          <h2 class="content-title">Hey There! I'm Lathnesh Cheruvattil.</h2>
+          <p class="paragraph-text">I am a highly self motivated individual who aspires to be an Ethical Hacker. I have spend my days training in many ways, going through many websites such as Tryhackme , Hack The Box etc. Enhanced my skills to make myself a better hacker. I am certainly confident that I will be a better suited in a company who is very much growth-oriented and looks for skilled person such as me.I am a highly self motivated individual who aspires to be an Ethical Hacker. I have spend my days training in many ways ..</p>
+          
+
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="title reveal">
+        <h2 class="section-title">My Skills</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">My Skills and Experiences</h2>
+          <p>I have a strong sense of self-motivation and want to become an ethical hacker. I've been a Cyber Security Analyst for six months. Have thoroughly Investigated Penetration Testing and Vulnerability Assessment during this time. I have used my days to practise in various ways, visiting numerous websites like Tryhackme and Hack The Box, among others. Improved my abilities to become a better hacker...</p>
+          
+        </div>
+        <div class="column col-right reveal">
+          <div class="bar">
+            <div class="info">
+              <span>Operating System Knowledge</span>
+              <span>95%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Legal and Ethical Awareness</span>
+              <span>85%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Analytical and Problem-Solving Skill</span>
+              <span>80%</span>
+            </div>
+            <div class="line javascript"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Information Security Concepts</span>
+              <span>80%</span>
+            </div>
+            <div class="line jquery"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Networking Skills</span>
+              <span>75%</span>
+            </div>
+            <div class="line php"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="title reveal">
+        <h2 class="section-title">My Services</h2>
+        <p>Vulnerability Assessment And Penetration Testing , Network Penetration Testing , Reporting , System Administration , Account Recovery , Paid Training etc.....</p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <div class="info">
+            <h3>Ethical Hacker</h3>
+            <p>The proactive work that do helps to improve an organization's security posture. With prior approval from the organization or owner of the IT asset, the mission of ethical hacking is opposite from malicious hacking.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-terminal"></i>
+          </div>
+          <div class="info">
+            <h3>Penetration Tester , VAPT</h3>
+            <p>Security Testing to identify Security Vulnerabilities in an application, Network, Endpoint, and Cloud. Both the Vulnerability Assessment and Penetration Testing have unique strengths and are often collectively done to achieve complete analysis.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="info">
+            <h3>Deffensive Security</h3>
+            <p>Proactive approach that focuses on Prevention, Detection, and Response to attacks from the perspective of Defending the Organization.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>KANNUR ,KERALA ,INDIA</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span>+91 9895455762</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>lathneshcheruvattil@gmail.com</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>Comming Soon</span><span class="blinking-cursor">_</span> </span>
+            </div>
+          </div>
+
+          <div class="title reveal">
+            <h2 class="section-title">Certifications</h2>
+          </div>
+
+          <p>
+            <img src="images/ceh11.jpg"alt="CEH Certification" style="max-width: 100%; height: auto;">
+          </p>
+          <p>
+            <img src="images/adcd.jpg"alt="ADCD Certification" style="max-width: 100%; height: auto;">
+          </p>
+          
+        </div>  
+        
+        
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      
+      <p><!-- Facebook -->
+        <a target="_blank" href="https://www.facebook.com/lathnesh.lathneshakku/">
+            <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
+          </a>
+        <!-- Twitter -->
+        <a target="_blank" href="https://twitter.com/Lathneshcheruv3/">
+            <i class="fab fa-twitter fa-2x" style="color: #55acee;"></i>
+          </a>
+        <!-- Instagram -->
+        <a target="_blank" href="https://www.instagram.com/ak.7user/">
+            <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+          </a>
+        <!-- Linkedin -->
+        <a target="_blank" href="https://www.linkedin.com/in/lathnesh-cheruvattil/">
+            <i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i>
+          </a>
+        <!-- Youtube -->
+        <a target="_blank" href="https://www.youtube.com/@SecOps__ak.7user_ ">
+            <i class="fab fa-youtube fa-2x" style="color: #ed302f;"></i>
+          </a>
+        <!-- Github -->
+        <a target="_blank" href="https://github.com/lathneshchr">
+            <i class="fab fa-github fa-2x" style="color: #333333;"></i></p>
+          </a>
+      <p>Copyright @2021 <a href="#">AK</a>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>
